@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #0078ff;
+}
+
+header p {
+    font-size: 18px;
+    color: #bbb;
+}
+
+/* Navigation Bar */
+nav {
+    background: #111;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #0078ff;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Features Section */
+.specs {
+    padding: 50px 10%;
+}
+
+.specs h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #0078ff;
+}
+
+/* Features List */
+.specs ul {
+    list-style: none;
+    padding: 0;
+}
+
+.specs ul li {
+    font-size: 10px;
+    background: #111;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #444;
+    transition: 0.3s;
+}
+
+.specs ul li:hover {
+    background: #222;
+    transform: scale(1.05);
+}
+
+/* Technical Specifications Table */
+.specs table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.specs th, .specs td {
+    border: 1px solid #555;
+    padding: 15px;
+    text-align: center;
+}
+
+.specs th {
+    background: #222;
+    color: #0078ff;
+    font-size: 20px;
+}
+
+.specs td {
+    background: #111;
+    font-size: 15px;
+}
+
+
+
+/* Footer */
+footer {
+    background: #111;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #aaa;
+}

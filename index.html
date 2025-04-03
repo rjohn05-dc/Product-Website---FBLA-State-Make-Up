@@ -3,29 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Galaxy S25 - The Future is Here</title>
     <link rel="stylesheet" href="index.css">
-    <title>Samsung S25</title>
+    <script>
+        // this functions changes the text of the button when hovered over using onmouseover event 
+        function changeText() {
+            document.getElementById("cta-text").innerHTML = "Pre-order Now & Get Exclusive Perks!";
+        }
+    </script>
 </head>
 <body>
-    <h1>Samsung S25</h1>
+    <header>
+        <h1>Samsung Galaxy S25</h1>
+        <p>Experience Innovation Like Never Before</p>
+    </header>
 
-    <div class="nav-bar">
-        <nav>
-            <a href="index.html">Home</a></li>
-            <a href="product.html">Specifications & Features</a>
-        </nav>
-    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+        </ul>
+    </nav>
 
-    <div class="container">
-        <div class="image-container">
-            <img src="./images/SamsungS25.webp" alt="Samsung S25" class="product-image">
+    <section class="hero">
+        <img src="./images/s25.jpg" alt="Samsung Galaxy S25">
+        <h2>The Ultimate Smartphone Experience</h2>
+        <p>The Galaxy S25 redefines power, speed, and elegance. With its AI-enhanced camera, ultra-fast performance, and a stunning design, it's more than a phone—it's a revolution.</p>
+        <!-- called the changeText function -->
+        <button onmouseover="changeText()" class="cta-button" id="cta-text">Discover More</button>
+    </section>
+
+    <section class="features">
+        <h2>Why Choose the Samsung S25?</h2>
+        <div class="feature-box">
+            <img src="./images/ai.jpg" alt="AI Camera">
+            <h3>AI-Powered Camera</h3>
+            <p>Proffesional camera for Grade A quality photos. </p>
         </div>
-        <div class="description-container">
-            <h2>Samsung S25</h2>
-            <p>The Samsung S25 is a cutting-edge smartphone that combines sleek design with powerful performance. It features a stunning display, advanced camera technology, and long-lasting battery life.</p>
-            <p>With its state-of-the-art processor and ample storage, the Samsung S25 is perfect for multitasking and running demanding applications.</p>
+        <div class="feature-box">
+            <img src="./images/battery.png" alt="Long Battery Life">
+            <h3>All-Day Battery</h3>
+            <p>Stay powered up with a 5000mAh battery and 65W fast charging—your phone will never slow you down. </p>
         </div>
+        <div class="feature-box">
+            <img src="./images/smooth.png" alt="Smooth Display">
+            <h3>Super Smooth Display</h3>
+            <p>Smooth display. Quality is clean and crisp.</p>
+        </div>
+    </section>
 
-    
+    <footer>
+        <p>&copy; 2025 Samsung Galaxy. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
